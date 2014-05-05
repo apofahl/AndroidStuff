@@ -2,12 +2,80 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-        >
-    <TextView
+              android:layout_height="fill_parent">
+    <LinearLayout
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".33">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dp"
+                    android:id="@+id/r1c1"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dp"
+                    android:id="@+id/r2c1"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dp"
+                    android:id="@+id/r3c1"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".33">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dp"
+                    android:id="@+id/r1c2"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dp"
+                    android:id="@+id/r2c2"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dp"
+                    android:id="@+id/r3c2"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".33">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dp"
+                    android:id="@+id/r1c3"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dp"
+                    android:id="@+id/r2c3"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dp"
+                    android:id="@+id/r3c3"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
-            />
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Play Again?  "
+                android:id="@+id/textView" android:visibility="invisible"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ok"
+                android:id="@+id/button" android:visibility="invisible"/>
+    </LinearLayout>
 </LinearLayout>
-

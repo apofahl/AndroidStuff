@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">androidapp</string>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="opener">Player Info</string>
+    <string name="game">Tic Tac Toe</string>
+    <string name="player1">Player 1: </string>
+    <string name="player2">Player 2: </string>
+    <string name="player_hint">player name</string>
+    <string name="player_reminder">please enter name</string>
+    <string name="ready">Ready?! </string>
+    <string name="go">Go</string>
 </resources>
